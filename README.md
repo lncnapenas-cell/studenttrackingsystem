@@ -26,3 +26,28 @@ Follow these steps to set up and run the project:
 1. **Clone the repository**
    ```bash
    git clone https://github.com/yourusername/student-tracking-system.git
+2. **Navigate to the project directory**
+   ```bash
+   cd student-tracking-system
+3. **Install dependencies**
+   ```bash
+   composer install
+   npm install
+   npm run dev
+4. **Set up your environment**
+   ```bash
+   cp .env.example .env
+   php artisan key:generate
+5. **Configure the database**
+   ```bash
+   Open .env file and update your database credentials.
+6. **Run migrations**
+   ```bash
+   php artisan migrate
+7. **Start the development server**
+   ```bash
+   php artisan serve
+8. **Open your browser and visit:**
+   ```bash
+   http://localhost:8000
+
